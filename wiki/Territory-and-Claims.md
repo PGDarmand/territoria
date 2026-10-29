@@ -33,6 +33,17 @@ bonus). A member is active if seen within `active_days`. Inactive countries slow
 When `claim_upkeep` is set, the bank pays every chunk once a day. If it can't, members are warned. The next day the
 chunks the bank can't afford are released, farthest from the capital first.
 
+### Auto-claim
+
+Turn on **Auto-claim** in your personal settings (Country card), or use `/country autoclaim` (or `/autoclaim`):
+every wild chunk you walk into is claimed for your country, with the usual checks. It turns itself off at the
+first claim that fails (limit reached, not enough money…) and tells you why.
+
+### Connected claims
+
+When the server enables `connected_claims`, a new chunk must touch your land side by side (except your very
+first chunk in a dimension). Countries then grow as one block instead of scattered dots.
+
 ## Protection
 
 Inside your land, everything follows the **role rules**: building, containers, doors, redstone, animals,

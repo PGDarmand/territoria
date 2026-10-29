@@ -28,6 +28,10 @@ them to type them.
 | `/country levelup` | Buy the next research level |
 | `/country chat` · `/cc <message>` | Country chat |
 | `/country sidebar` | Show / hide the country sidebar |
+| `/country autoclaim` · `/autoclaim` | Claim wild chunks automatically as you walk |
+| `/country ban <player>` · `/country unban <player>` | Keep a player out of your land |
+| `/country warp <name>` | Teleport to one of your country's warps |
+| `/country setwarp <name>` · `/country delwarp <name>` | Set / delete a warp |
 
 ## Admins
 

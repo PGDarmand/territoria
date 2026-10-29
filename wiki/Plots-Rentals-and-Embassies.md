@@ -30,6 +30,9 @@ it too.
 You can pay up to **12 periods** at once, and at most **365 days ahead** in total. When the rent runs out, the
 plot is free again.
 
+Less than a day before the end, the renter gets a reminder in the chat (and again at login), then a message
+when the rent has ended.
+
 Walking into a plot also shows its card in the chat, with **[Rent]**, **[Extend]** and **[Leave]** buttons
 (one period).
 

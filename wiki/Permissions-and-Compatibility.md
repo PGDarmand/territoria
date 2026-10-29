@@ -48,7 +48,7 @@ Example, only VIPs can found countries:
 
 ## Name tags & placeholders
 
-Country names before player names use `nt_` scoreboard teams. A player already in another plugin's team gets it
+Country names before player names use `tr_` scoreboard teams. A player already in another plugin's team gets it
 in the TAB name instead.
 
 Other mods can read `com.territoria.country.TerritoriaPlaceholders.resolve(player, key)` with the keys `country`, `role`,

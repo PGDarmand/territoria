@@ -2,7 +2,7 @@
 
 ## Install
 
-1. Put `territoria-1.0.0.jar` in the server's `mods/` folder.
+1. Put `territoria-1.1.0.jar` in the server's `mods/` folder.
 2. Every player installs the **same jar**. A player without it is refused at login with a clear message.
 3. Start the server once. Territoria creates `config/territoria-server.json` and `config/territoria/README.txt`.
 
@@ -42,6 +42,9 @@ You can also edit `config/territoria-server.json` and run `/territoriaadmin relo
 | `level_cost` | 100 | Price of research level 1 (doubles each level) |
 | `level_claims` | 10 | Extra claims per research level |
 | `discord_webhook` | empty | Discord webhook URL for news (hidden from players) |
+| `max_warps` | 5 | Warps per country |
+| `connected_claims` | 0 | 1 = new chunks must touch the country's land |
+| `web_map` | 1 | 1 = show the countries on BlueMap (when the BlueMap mod is installed) |
 
 **Suggested survival start:** `creation_cost` 32, `claim_cost` 4, `claims_per_active` 16, `claim_upkeep` 1,
 `max_tax` 64.
@@ -55,6 +58,12 @@ of every player's menu rail. Without it, that corner stays empty.
 
 Create a webhook in your Discord channel (*Channel settings → Integrations → Webhooks → New webhook → Copy URL*)
 and paste it in `discord_webhook`. Foundings, disbands and wars are posted there.
+
+## Web map (BlueMap)
+
+Install the [BlueMap](https://modrinth.com/plugin/bluemap) mod on the server: with `web_map` on, every country
+appears on BlueMap's web page in its color, with its capital, refreshed every two minutes. A **Countries**
+layer can be toggled on the web page. Without BlueMap, this setting does nothing.
 
 ## Data & backups
 

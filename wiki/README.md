@@ -6,6 +6,7 @@ clean, custom menus. Commands exist, but you never need them.
 
 - Minecraft **1.21.1**, **NeoForge 21.1.219+**, Java 21
 - Install it on the **server and on every player's client** (menus, map and HUD run on the client)
+- Available in **English** and **French** (it follows the game language)
 
 ## Pages
 
@@ -19,6 +20,7 @@ clean, custom menus. Commands exist, but you never need them.
 | [Bank, taxes & research](Bank-Taxes-and-Research.md) | |
 | [Plots, rentals & embassies](Plots-Rentals-and-Embassies.md) | |
 | [Diplomacy & war](Diplomacy-and-War.md) | |
+| [Warps](Warps.md) | |
 | [Flags](Flags.md) | |
 
 ## Default keys

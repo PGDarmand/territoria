@@ -6,6 +6,8 @@
   the row promote ▲, demote ▼, kick ✖ or hand over leadership ♛, depending on your own role.
 - **Invitations**: invite a player by name and see pending invitations.
 - **Trusted**: outsiders allowed in your land with the **Ally** role (`/country trust <player>`).
+- **Banned**: players kept out of your land entirely (`/country ban <player>`). A banned player who walks or
+  teleports in is sent back outside, can't use your warps (even public ones) and can't rent your plots.
 
 The card on the right shows the **hierarchy**: each role and the heads of its members.
 
@@ -50,6 +52,8 @@ stands · Use buckets · Light fires · Sleep & set spawn · Ender pearls into t
 
 **Management**: Invite players · Kick members · Claim & unclaim land · Manage roles · Edit settings · Manage markers ·
 Withdraw from the bank · Use the country chest · Diplomacy & wars · Teleport home · Rent out plots · Set taxes ·
-Buy research levels · Set the capital · Trust players · Capture enemy land
+Buy research levels · Set the capital · Trust & ban players · Capture enemy land
+
+Kicking a member, handing over leadership and deleting a role ask for a second click to confirm.
 
 Each role can also have its own daily **tax** (see [Bank, taxes & research](Bank-Taxes-and-Research.md)).

@@ -7,6 +7,7 @@ apartments, make allies and go to war.
 
 - Minecraft **1.21.1**, **NeoForge 21.1.219+**, Java 21
 - Install it on the **server and on every player's client**
+- Available in **English** and **French**
 
 ## 📖 [Read the wiki](wiki/README.md)
 
@@ -16,5 +17,6 @@ apartments, make allies and go to war.
 | [Countries](wiki/Countries.md) | [Permissions & compatibility](wiki/Permissions-and-Compatibility.md) |
 | [Plots, rentals & embassies](wiki/Plots-Rentals-and-Embassies.md) | [Commands](wiki/Commands.md) |
 | [Diplomacy & war](wiki/Diplomacy-and-War.md) | [FAQ](wiki/FAQ.md) |
+| [Warps](wiki/Warps.md) | |
 
 The mod's source code is not published here.
