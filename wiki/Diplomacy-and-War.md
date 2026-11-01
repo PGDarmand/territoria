@@ -14,8 +14,9 @@ In the **Diplomacy** tab, every other country is **Neutral**, **Ally** or **Enem
 ## War
 
 1. Declare war on an enemy country (Diplomacy tab, or `/country war <name>`).
-2. The war lasts `war_hours` (24 h by default). With `war_grief` on, both sides can build and break in each
-   other's land.
+2. The war lasts `war_hours` (24 h by default). With `war_grief` on, both sides get the **raid rules** chosen by the
+   server in each other's land (`war_rules`: all land rules by default; for example only containers, so enemies
+   can loot but not build). With `war_explosions`, TNT lit by an enemy breaks blocks even where explosions are off.
 3. **Capturing land**: stand in an enemy chunk and start a capture (*Capture enemy land* rule, or
    `/country capture`). It takes `capture_seconds`. The capture pauses while a defender is in the chunk and
    cancels if you leave or die. Then the chunk becomes yours, and flags standing in it switch to your flag.

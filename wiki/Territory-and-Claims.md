@@ -4,11 +4,16 @@ Land is claimed by **chunk** (16 × 16 blocks, full height).
 
 ## Claiming
 
-Open **Territory**:
+Open **Territory** (or the world map, `M`):
 
-- **left-click** a chunk to claim it, **right-click** to release it;
-- drag to move the map, scroll to zoom;
-- you need the *Claim & unclaim land* rule.
+- **left-click** a chunk to select it, or **drag** with the left button to select a rectangle (up to 256 chunks);
+- **right-click** opens a menu: **Claim the selection**, **Release the selection** or clear it;
+- **drag with the right button** to move the map, scroll to zoom;
+- you need the *Claim & unclaim land* rule (without it, the left button just moves the map).
+
+A selection is claimed chunk by chunk, starting near you, with the usual checks (limits, money, distance,
+connected claims). If one fails, the message says how many chunks were claimed and why it stopped. The selection
+is shared by both maps: select on the world map, claim from the Territory page, or the other way round.
 
 Or stand in a chunk and use `/country claim` / `/country unclaim`.
 

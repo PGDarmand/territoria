@@ -9,8 +9,8 @@ Needs the *Rent out plots* rule.
 
 1. **Territory → Get wand** gives you the **Plot Wand**.
 2. Left-click a block for corner 1, right-click another for corner 2. The selection is drawn in the world.
-3. **Territory → New plot**: give it a name, a description, a price and a rent length in days
-   (up to `plot_days`, 30 by default).
+3. **Territory → New plot**: give it a name, a description, a price and how long one payment lasts, in **hours,
+   days or weeks** (click the unit to switch; up to `plot_days` days, 30 by default).
 
 The whole box must be inside your land and can't overlap another plot. Plots can be edited (✎) or deleted (✖)
 from the list. If a chunk is lost, the plots reaching into it go with it.

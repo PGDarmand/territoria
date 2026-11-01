@@ -2,7 +2,7 @@
 
 ## Install
 
-1. Put `territoria-1.1.0.jar` in the server's `mods/` folder.
+1. Put `territoria-1.2.0.jar` in the server's `mods/` folder.
 2. Every player installs the **same jar**. A player without it is refused at login with a clear message.
 3. Start the server once. Territoria creates `config/territoria-server.json` and `config/territoria/README.txt`.
 
@@ -12,8 +12,8 @@ The console prints a check line, for example:
 ## Editing the rules
 
 The easiest way: join as an operator, open the menu (`N`), click the **hammer** at the bottom of the rail, change
-values and click **Save**. The panel is split into *Economy*, *Costs*, *Countries*, *Power*, *Wars*, *Teleport*,
-*Server*, *Moderation* and *Logs*, with an explanation under every setting (see [Admin tools](Admin-Tools.md)).
+values and click **Save**. The panel is split into *Economy*, *Costs*, *Countries*, *Power*, *Research*, *Role rules*,
+*Wars*, *Teleport*, *Server*, *Moderation* and *Logs*, with an explanation under every setting (see [Admin tools](Admin-Tools.md)).
 
 You can also edit `config/territoria-server.json` and run `/territoriaadmin reload`.
 
@@ -34,17 +34,27 @@ You can also edit `config/territoria-server.json` and run `/territoriaadmin relo
 | `claims_per_active` | 0 | Power: claims per active member (0 = off) |
 | `active_days` | 14 | Days a member stays "active" after being seen |
 | `war_hours` | 24 | Length of a war |
-| `war_grief` | 1 | 1 = enemies can build/break in each other's land during a war |
+| `war_grief` | 1 | 1 = raiding: enemies at war get the `war_rules` in each other's land |
+| `war_rules` | all land rules | Land rules raiders get, comma-separated (e.g. `containers,doors`) |
+| `war_explosions` | 0 | 1 = TNT lit by an enemy at war breaks blocks even where explosions are off |
+| `locked_rules` | empty | Rules countries can't change, comma-separated (e.g. `ender_pearls,fire`) |
 | `capture_seconds` | 60 | Time to capture a chunk |
 | `teleport_warmup` / `teleport_cooldown` | 5 / 60 | Seconds for the home teleport |
-| `max_tax` | 100 | Highest daily tax |
-| `plot_days` | 30 | Longest rent one payment can buy |
-| `level_cost` | 100 | Price of research level 1 (doubles each level) |
+| `max_tax` | 100 | Highest tax per day (hourly taxes get a 24th, weekly ones 7 times) |
+| `plot_days` | 30 | Longest rent one payment can buy, in days |
+| `max_level` | 5 | Number of research levels (1–50) |
+| `level_cost` | 100 | Price of research level 1 |
+| `level_growth` | 100 | % added to the price each level (100 = doubles) |
+| `level_members` | 1 | Members needed per level (level N: leader + N × this) |
+| `level_chunks` | 5 | Chunks needed per level (level N: N × this) |
 | `level_claims` | 10 | Extra claims per research level |
+| `level_warps` | 0 | Extra warps per research level |
+| `level_member_slots` | 0 | Extra member slots per research level (when `max_members` is set) |
 | `discord_webhook` | empty | Discord webhook URL for news (hidden from players) |
 | `max_warps` | 5 | Warps per country |
 | `connected_claims` | 0 | 1 = new chunks must touch the country's land |
 | `web_map` | 1 | 1 = show the countries on BlueMap (when the BlueMap mod is installed) |
+| `treasury` | 0 | 1 = bank money lives in a Treasury block, public on the map and lootable in wars (items economy) |
 
 **Suggested survival start:** `creation_cost` 32, `claim_cost` 4, `claims_per_active` 16, `claim_upkeep` 1,
 `max_tax` 64.

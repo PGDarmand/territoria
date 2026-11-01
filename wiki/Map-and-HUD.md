@@ -4,7 +4,10 @@
 
 A live map of the terrain you have explored, with every country's land in its color.
 
-- drag to move, scroll to zoom, the button recenters on you;
+- drag to move, scroll to zoom, `Space` recenters on you;
+- players who can claim select chunks with the left button and move the map with the **right** button; their
+  right-click menu also claims or releases the selection (see [Territory & claims](Territory-and-Claims.md));
+- `E` closes the map (and every Territoria menu), like it closes a chest;
 - hover a chunk to see who owns it;
 - capitals are marked with a star.
 

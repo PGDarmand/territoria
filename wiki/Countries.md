@@ -48,7 +48,8 @@ A personal **sidebar** with the country info can be turned on in the settings (o
 ## Leaving and disbanding
 
 - Any member can leave (Settings, or `/country leave`).
-- The leader can **disband** the country. This deletes it and frees all its land.
+- The leader can **disband** the country. This deletes it and frees all its land; the country chest goes back to
+  the leader.
 - The leader can hand over leadership from **Members** (crown button).
 
 ## Ranking
