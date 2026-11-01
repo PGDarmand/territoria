@@ -2,7 +2,9 @@
 
 ## World map (`M`)
 
-A live map of the terrain you have explored, with every country's land in its color.
+A live map of the terrain you have explored, with every country's land in its color. It is saved on your computer
+for each world separately: a new world (even with the same name, or a server that was reset) starts with a blank
+map. Your personal markers are kept per world the same way.
 
 - drag to move, scroll to zoom, `Space` recenters on you;
 - players who can claim select chunks with the left button and move the map with the **right** button; their
@@ -40,4 +42,6 @@ Everything about your own screen, and only yours:
 
 - **World**: country borders drawn in the world, also in caves or not;
 - **HUD**: minimap (size, corner, coordinates), compass, the banner when entering a country;
-- **Country**: country chat mode, the country sidebar.
+- **Country**: country tags in chat, country chat mode, the country sidebar, auto-claim.
+
+Long pages scroll with the mouse wheel when the window is small (big GUI scale).

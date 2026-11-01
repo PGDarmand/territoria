@@ -54,6 +54,7 @@ You can also edit `config/territoria-server.json` and run `/territoriaadmin relo
 | `max_warps` | 5 | Warps per country |
 | `connected_claims` | 0 | 1 = new chunks must touch the country's land |
 | `web_map` | 1 | 1 = show the countries on BlueMap (when the BlueMap mod is installed) |
+| `chat_tags` | 1 | 0 = no "[Country]" before names in chat (name tags and TAB keep it); players can also hide it |
 | `treasury` | 0 | 1 = bank money lives in a Treasury block, public on the map and lootable in wars (items economy) |
 
 **Suggested survival start:** `creation_cost` 32, `claim_cost` 4, `claims_per_active` 16, `claim_upkeep` 1,

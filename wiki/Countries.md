@@ -38,7 +38,9 @@ Members with the *Edit settings* rule can change:
 
 ## Name tags, chat and TAB
 
-The country name shows before member names above heads, in the chat and in the TAB list. Members can talk privately:
+The country name shows before member names above heads, in the chat and in the TAB list. The tag in chat can be
+turned off by the server (`chat_tags`) or by each player for themselves (personal settings → Country tags in
+chat). Members can talk privately:
 
 - `/cc <message>` sends one message to the country;
 - the **Country chat** toggle (personal settings) or `/country chat` sends all your messages to the country.
