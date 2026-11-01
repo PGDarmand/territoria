@@ -2,12 +2,12 @@
 
 ## Install
 
-1. Put `territoria-1.2.0.jar` in the server's `mods/` folder.
+1. Put the jar for your loader (`territoria-neoforge-…jar`, or `territoria-fabric-…jar` plus Fabric API) in the server's `mods/` folder.
 2. Every player installs the **same jar**. A player without it is refused at login with a clear message.
 3. Start the server once. Territoria creates `config/territoria-server.json` and `config/territoria/README.txt`.
 
 The console prints a check line, for example:
-`Territoria ready: economy=items, permissions=neoforge:default_handler, logo=none, countries=0`
+`Territoria ready (NeoForge): economy=items, permissions=neoforge:default_handler, logo=none, countries=0`
 
 ## Editing the rules
 

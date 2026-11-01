@@ -24,8 +24,9 @@ Mod developers can plug in directly: implement `com.territoria.economy.Economy` 
 
 ## Permission nodes
 
-The nodes go through NeoForge's permission API, so **LuckPerms** (NeoForge) manages them. On hybrid servers,
-LuckPerms as a Bukkit plugin works too.
+The nodes go through the loader's permission API (NeoForge's permission API, or fabric-permissions-api on Fabric,
+bundled in the jar), so **LuckPerms** (NeoForge or Fabric) manages them. On hybrid servers, LuckPerms as a Bukkit
+plugin works too.
 
 | Node | Default | Allows |
 |---|---|---|

@@ -4,7 +4,7 @@
 with custom roles, fill a shared bank, rent out apartments, make allies and go to war. Everything is done from
 clean, custom menus. Commands exist, but you never need them.
 
-- Minecraft **1.21.1**, **NeoForge 21.1.219+**, Java 21
+- Minecraft **1.21.1**, Java 21, **NeoForge 21.1.219+** or **Fabric Loader 0.16.10+** (with Fabric API): one jar per loader, same features
 - Install it on the **server and on every player's client** (menus, map and HUD run on the client)
 - Available in **English** and **French** (it follows the game language)
 
