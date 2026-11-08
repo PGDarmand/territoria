@@ -33,7 +33,7 @@ Country borders can be drawn in the world as light walls along the chunk edges, 
 
 ## Compass
 
-A compass strip at the top of the screen shows the cardinal points, your heading in degrees, and the direction of
+Off by default: turn it on in your personal settings (**HUD** card). A compass strip at the top of the screen shows the cardinal points, your heading in degrees, and the direction of
 capitals and markers, so you can walk to them. It can be turned off in the settings.
 
 ## Personal settings (gear icon)

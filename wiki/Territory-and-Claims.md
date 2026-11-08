@@ -41,8 +41,10 @@ chunks the bank can't afford are released, farthest from the capital first.
 ### Auto-claim
 
 Turn on **Auto-claim** in your personal settings (Country card), or use `/country autoclaim` (or `/autoclaim`):
-every wild chunk you walk into is claimed for your country, with the usual checks. It turns itself off at the
-first claim that fails (limit reached, not enough money…) and tells you why.
+every wild chunk you travel through is claimed for your country, with the usual checks. The whole path counts, so
+flying fast or moving diagonally leaves no holes. It turns itself off and tells you why at the first claim that
+fails (limit reached, not enough money…), and when you teleport, die or change dimension, so no land is claimed
+far from home by accident. A whole trip writes one line in the country logs.
 
 ### Connected claims
 
